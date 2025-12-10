@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BritMart UK – Online Store</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f7f7f7;}
+        header {background:#1a1a1a; color:#fff; padding:20px; text-align:center;}
+        nav {background:#333; padding:10px; display:flex; justify-content:center; gap:20px;}
+        nav a {color:white; text-decoration:none; font-weight:bold;}
+        .hero {background:url('https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f') center/cover; height:350px; display:flex; align-items:center; justify-content:center; color:white; font-size:40px; font-weight:bold; text-shadow:0 0 10px #000;}
+        .section {padding:40px; max-width:1200px; margin:auto;}
+        h2 {margin-bottom:20px;}
+        .products {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px;}
+        .card {background:white; padding:20px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1);}        
+        .card img {width:100%; border-radius:10px;}
+        .card button {width:100%; padding:10px; background:black; color:white; border:none; border-radius:5px; margin-top:10px; cursor:pointer;}
+        footer {background:#111; color:white; text-align:center; padding:20px; margin-top:40px;}
+    </style>
+</head>
+<body>
+
+<button onclick="toggleMode()" style="position:fixed; top:20px; right:20px; padding:10px 15px; border:none; border-radius:5px; cursor:pointer; z-index:999;">Toggle Mode</button>
+<script>
+function toggleMode(){ document.body.classList.toggle('dark'); }
+</script>
+<style>
+.dark{background:#111 !important; color:white !important;}
+.dark .card{background:#222 !important; color:white !important;}
+.dark nav{background:#000 !important;}
+</style>
+
+<div id="slider" style="width:100%; height:300px; overflow:hidden; position:relative;">
+    <img id="slideImg" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" style="width:100%; height:100%; object-fit:cover; transition:0.6s;">
+</div>
+<script>
+let images=[
+'https://images.unsplash.com/photo-1523275335684-37898b6baf30',
+'https://images.unsplash.com/photo-1518779578993-ec3579fee39f',
+'https://images.unsplash.com/photo-1503602642458-232111445657'
+];
+let i=0;
+setInterval(()=>{ i=(i+1)%images.length; document.getElementById('slideImg').src=images[i]; },3000);
+</script>
+
+<header>
+        <h1>BritMart UK</h1>
+        <p>Your trusted online British marketplace</p>
+    </header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div style="padding:20px; background:white; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+    <input type="text" placeholder="Search products..." style="padding:10px; width:40%; min-width:200px; border-radius:5px; border:1px solid #ccc;">
+    <select style="padding:10px; border-radius:5px;">
+        <option>Filter by Category</option>
+        <option>Electronics</option>
+        <option>Shoes</option>
+        <option>Watches</option>
+        <option>Accessories</option>
+    </select>
+    <select style="padding:10px; border-radius:5px;">
+        <option>Sort by Price</option>
+        <option>Low to High</option>
+        <option>High to Low</option>
+    </select>
+</div>
+
+<div class="hero">Welcome to BritMart UK</div>
+
+<section id="products" class="section">
+    <h2>Featured Products</h2>
+    <div class="products">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01" />
+            <h3>Men's Premium Sneakers</h3>
+            <p>High-quality comfortable sneakers for everyday wear.</p>
+            <p><strong>£39.99</strong></p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" />
+            <h3>Luxury Wrist Watch</h3>
+            <p>Elegant design with waterproof features.</p>
+            <p><strong>£59.99</strong></p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" />
+            <h3>Wireless Headphones</h3>
+            <p>Noise-cancelling audio for travel & work.</p>
+            <p><strong>£24.99</strong></p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About BritMart</h2>
+    <p>BritMart is a UK-based eBay-powered online marketplace offering high-quality products at affordable prices.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: support@britmart.co.uk</p>
+    <p>Phone: +44 20 1234 5678</p>
+    <p>Location: London, United Kingdom</p>
+</section>
+
+<section id="electronics" class="section">
+    <h2>Electronics & Gadgets</h2>
+    <div class="products">
+        <div class="card"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8"><h3>UltraThin Laptop 14"</h3><p>Lightweight and fast.</p><p><strong>£499.99</strong></p><button>Add to Cart</button></div>
+        <div class="card"><img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5"><h3>Bluetooth Speaker</h3><p>Deep bass & waterproof.</p><p><strong>£29.99</strong></p><button>Add to Cart</button></div>
+    </div>
+</section>
+
+<section class="section">
+<h2>Ownership</h2>
+<p>BritMart UK is fully owned and operated by Kashir Manzoor.</p>
+<p>Official Mobile Number: <strong>0316-9162296</strong></p>
+</section>
+
+<footer>
+<p>© 2025 BritMart UK – All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
