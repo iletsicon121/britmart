@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BritMart – Trending UK Product Store</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+body{margin:0;font-family:Arial;background:#f5f5f5;}
+header{background:#000;color:#fff;padding:20px;text-align:center;font-size:28px;font-weight:bold;letter-spacing:2px;}
+.hero{width:100%;height:350px;background:url('https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f') center/cover;border-bottom:4px solid #000;}
+.section{padding:25px;max-width:1200px;margin:auto;}
+h2{font-size:28px;margin-bottom:10px;border-left:5px solid #000;padding-left:10px;}
+.product-main{display:flex;flex-wrap:wrap;gap:20px;background:#fff;padding:20px;border-radius:10px;}
+.product-main img{width:400px;border-radius:10px;}
+.product-info{flex:1;}
+.price{font-size:28px;font-weight:bold;margin:10px 0;}
+.btn{padding:12px 20px;background:#000;color:#fff;border:none;border-radius:5px;cursor:pointer;font-size:16px;margin-top:10px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;margin-top:20px;}
+.card{background:#fff;border-radius:10px;padding:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.1);} 
+.card img{width:100%;border-radius:10px;}
+.card p{margin:8px 0;}
+footer{background:#000;color:#fff;padding:20px;text-align:center;margin-top:40px;}
+</style>
+</head>
+<body>
+<header>BritMart – UK's Trending Product Store</header>
+<div class="hero"></div>
+<div class="section">
+<h2>⭐ UK's Trending Product – Portable Neck Massager</h2>
+<div class="product-main">
+<img src="https://images.unsplash.com/photo-1606813907291-e6e425a6df07" alt="Neck Massager">
+<div class="product-info">
+<h3>Smart Heated Neck Massager</h3>
+<p>UK ka sabse zyada trending, pain-relief, physiotherapy style smart neck massager. Office workers, students, drivers aur home users ke liye perfect.</p>
+<p class="price">£29.99</p>
+<button class="btn">Add to Cart</button>
+</div>
+</div>
+</div>
+<div class="section">
+<h2>🔥 Best Sellers (30 Products)</h2>
+<div class="grid">
+
+<!-- 30 PRODUCT CARDS BELOW -->
+<div class="card"><img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5"><p>Bluetooth Speaker</p><p>£14.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01"><p>Sneakers</p><p>£24.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"><p>Wireless Headphones</p><p>£19.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b"><p>Women's Jacket</p><p>£34.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"><p>Kids T-shirt</p><p>£9.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8"><p>Mini Laptop</p><p>£199.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd"><p>Drone 4K</p><p>£89.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475"><p>Action Camera</p><p>£59.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1503602642458-232111445657"><p>Smart Watch</p><p>£29.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01"><p>Running Shoes</p><p>£22.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"><p>Earbuds</p><p>£12.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"><p>Kids Hoodie</p><p>£17.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5"><p>Portable Speaker</p><p>£11.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"><p>Pro Headphones</p><p>£49.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8"><p>Compact Laptop</p><p>£159.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475"><p>Sports Camera</p><p>£39.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd"><p>Mini Drone</p><p>£49.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1503602642458-232111445657"><p>Digital Watch</p><p>£19.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b"><p>Women's Coat</p><p>£59.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"><p>Kids Joggers</p><p>£14.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"><p>Gaming Headset</p><p>£29.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5"><p>Mini Speaker</p><p>£8.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8"><p>Ultrabook</p><p>£249.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475"><p>Action Cam Pro</p><p>£79.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd"><p>Drone Pro</p><p>£129.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1503602642458-232111445657"><p>Fitness Watch</p><p>£24.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b"><p>Women's Dress</p><p>£22.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"><p>Wireless Earbuds</p><p>£21.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"><p>Kids Set</p><p>£11.99</p></div>
+</div>
+</div>
+<footer>© 2025 BritMart – Trending UK Product Store</footer>
+
+<!-- PRODUCT DETAILS PAGE -->
+<section id="details" class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Product Details</h2>
+<div style="display:flex; flex-wrap:wrap; gap:20px;">
+<img src="https://images.unsplash.com/photo-1606813907291-e6e425a6df07" style="width:350px; border-radius:10px;">
+<div style="flex:1;">
+<h3>Smart Heated Neck Massager</h3>
+<p>• Heat Therapy<br>• EMS Technology<br>• 3 Massage Modes<br>• UK Trending Product<br>• USB Rechargeable</p>
+<p style="font-size:26px; font-weight:bold;">£29.99</p>
+<button class="btn" onclick="addToCart('Neck Massager')">Add to Cart</button>
+</div>
+</div>
+</section>
+
+<!-- CART PAGE -->
+<section id="cart" class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Your Cart</h2>
+<div id="cartItems">No items yet.</div>
+<button class="btn" style="margin-top:20px;">Checkout</button>
+</section>
+<script>
+let cartList=[];
+function addToCart(item){ cartList.push(item); document.getElementById('cartItems').innerHTML = cartList.join('<br>'); alert(item + ' added to cart'); }
+</script>
+
+<!-- EXTRA SLIDER BANNERS -->
+<div style="width:100%; margin-top:40px;">
+<img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f" style="width:100%; height:250px; object-fit:cover; border-radius:10px; margin-bottom:20px;">
+<img src="https://images.unsplash.com/photo-1503602642458-232111445657" style="width:100%; height:250px; object-fit:cover; border-radius:10px;">
+</div>
+
+<!-- CUSTOMER REVIEWS PAGE -->
+<section id="reviews" class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Customer Reviews</h2>
+<div class="card"><strong>⭐⭐⭐⭐⭐</strong><p>Amazing product! Pain relief in minutes.</p></div>
+<div class="card"><strong>⭐⭐⭐⭐</strong><p>Good quality, fast delivery.</p></div>
+<div class="card"><strong>⭐⭐⭐⭐⭐</strong><p>Highly recommended for office workers.</p></div>
+</section>
+
+<!-- SALE COUNTDOWN TIMER -->
+<section class="section" style="background:#ffecec; margin-top:40px; border-radius:10px; padding:25px; text-align:center;">
+<h2>🔥 Flash Sale Ends In</h2>
+<h1 id="timer" style="font-size:40px; font-weight:bold;"></h1>
+</section>
+<script>
+function startTimer(duration, display) {
+    let timer = duration, hours, minutes, seconds;
+    setInterval(function () {
+        hours = parseInt(timer / 3600, 10);
+        minutes = parseInt((timer % 3600) / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+        display.textContent = hours + ":" + minutes + ":" + seconds;
+        if (--timer < 0) timer = duration;
+    }, 1000);
+}
+window.onload = function () {startTimer(7200, document.getElementById('timer'));};
+</script>
+
+<!-- FREQUENTLY BOUGHT TOGETHER -->
+<section class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Frequently Bought Together</h2>
+<div class="products">
+<div class="card"><img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5"><p>Portable Speaker</p><p>£14.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"><p>Headphones</p><p>£19.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"><p>Wireless Earbuds</p><p>£12.99</p></div>
+</div>
+</section>
+
+<!-- FOOTER PAGES -->
+<section id="policies" class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Policies</h2>
+<p><strong>Refund Policy:</strong> 30-day refund for unused products.</p>
+<p><strong>Shipping Policy:</strong> UK delivery in 3-5 days.</p>
+<p><strong>Terms & Conditions:</strong> All purchases subject to store terms.</p>
+</section>
+
+<!-- WHATSAPP CHAT BUTTON -->
+<a href="https://wa.me/03169162296" style="position:fixed; bottom:20px; right:20px; z-index:999; background:#25D366; color:#fff; padding:15px; border-radius:50%; font-size:24px; text-decoration:none;"><i class="fa fa-whatsapp"></i></a>
+
+<!-- MULTI-PRODUCT SHOP PAGE -->
+<section id="shop" class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Shop All Products</h2>
+<div class="products">
+<div class="card"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"><p>Watch</p><p>£39.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8"><p>Laptop</p><p>£299.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1503602642458-232111445657"><p>Smartwatch</p><p>£29.99</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475"><p>Camera</p><p>£49.99</p></div>
+</div>
+</section>
+
+<!-- BEAUTIFUL CATEGORY PAGE -->
+<section id="categories" class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Shop by Category</h2>
+<div class="products">
+<div class="card"><p>Electronics</p></div>
+<div class="card"><p>Fashion</p></div>
+<div class="card"><p>Kids</p></div>
+<div class="card"><p>Home Gadgets</p></div>
+</div>
+</section>
+
+<!-- FLOATING CART ICON -->
+<a href="#cart" style="position:fixed; bottom:90px; right:20px; background:#000; color:#fff; padding:15px; border-radius:50%; font-size:20px; text-decoration:none; z-index:999;"><i class="fa fa-shopping-cart"></i></a>
+
+<!-- STICKY HEADER ANIMATION -->
+<script>
+window.onscroll = function(){
+    let header = document.querySelector('header');
+    header.style.background = window.scrollY > 50 ? '#000' : 'transparent';
+};
+</script>
+
+<!-- PRODUCT QUICK VIEW POPUP -->
+<div id="quickView" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); justify-content:center; align-items:center; z-index:9999;">
+<div style="background:#fff; padding:20px; width:350px; border-radius:10px; text-align:center;">
+<h3>Quick View</h3>
+<img id="qvImg" src="" style="width:100%; border-radius:10px;">
+<p id="qvTitle"></p>
+<p id="qvPrice" style="font-weight:bold;"></p>
+<button class="btn" onclick="addToCart(qvTitle.textContent)">Add to Cart</button>
+<button class="btn" style="background:red; margin-top:10px;" onclick="closeQV()">Close</button>
+</div>
+</div>
+<script>
+function quickView(img,title,price){
+ document.getElementById('quickView').style.display='flex';
+ document.getElementById('qvImg').src=img;
+ document.getElementById('qvTitle').textContent=title;
+ document.getElementById('qvPrice').textContent=price;
+}
+function closeQV(){ document.getElementById('quickView').style.display='none'; }
+</script>
+
+<!-- ADD TO CART ANIMATION -->
+<style>@keyframes bounce{0%{transform:scale(1);}50%{transform:scale(1.2);}100%{transform:scale(1);}}</style>
+<script>
+function addToCart(item){ cartList.push(item); document.getElementById('cartItems').innerHTML = cartList.join('<br>'); let icon=document.querySelector('.fa-shopping-cart'); icon.style.animation='bounce 0.5s'; setTimeout(()=>{icon.style.animation='';},500); alert(item+' added to cart'); }
+</script>
+
+<!-- FULL CHECKOUT PAGE -->
+<section id="fullCheckout" class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Checkout</h2>
+<input placeholder="Full Name" style="width:100%; padding:10px; margin:10px 0;">
+<input placeholder="Address" style="width:100%; padding:10px; margin:10px 0;">
+<input placeholder="City" style="width:100%; padding:10px; margin:10px 0;">
+<input placeholder="Postcode" style="width:100%; padding:10px; margin:10px 0;">
+<h3>Payment</h3>
+<div style="display:flex; gap:10px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" style="width:60px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" style="width:60px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Klarna_Logo.png" style="width:60px;">
+</div>
+<input placeholder="Card Number" style="width:100%; padding:10px; margin:10px 0;">
+<button class="btn">Pay Now</button>
+</section>
+
+<!-- LOGIN / SIGNUP -->
+<section id="loginPanel" class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Account</h2>
+<div style="display:flex; gap:20px; flex-wrap:wrap;">
+<div style="flex:1; min-width:250px;"><h3>Login</h3><input placeholder="Email" style="width:100%; padding:10px;margin:10px 0;"><input type="password" placeholder="Password" style="width:100%; padding:10px;margin:10px 0;"><button class="btn">Login</button></div>
+<div style="flex:1; min-width:250px;"><h3>Signup</h3><input placeholder="Full Name" style="width:100%; padding:10px;margin:10px 0;"><input placeholder="Email" style="width:100%; padding:10px;margin:10px 0;"><input type="password" placeholder="Password" style="width:100%; padding:10px;margin:10px 0;"><button class="btn">Create Account</button></div>
+</div>
+</section>
+
+<!-- SEARCH BAR + CATEGORY FILTER -->
+<section class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Search Products</h2>
+<input id="searchBox" placeholder="Search..." style="width:100%; padding:10px; margin-bottom:15px;">
+<select id="categoryFilter" style="padding:10px; width:100%;">
+<option value="all">All Categories</option>
+<option value="electronics">Electronics</option>
+<option value="fashion">Fashion</option>
+<option value="kids">Kids</option>
+</select>
+</section>
+<script>document.getElementById('searchBox').oninput=function(){alert('Search working (frontend)');};</script>
+
+<!-- MULTI-IMAGE GALLERY -->
+<section class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px; text-align:center;">
+<h2>More Images</h2>
+<img src="https://images.unsplash.com/photo-1606813907291-e6e425a6df07" style="width:200px; border-radius:10px; margin:10px;">
+<img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" style="width:200px; border-radius:10px; margin:10px;">
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475" style="width:200px; border-radius:10px; margin:10px;">
+</section>
+
+<!-- REVIEW SUBMISSION FORM -->
+<section class="section" style="background:#fff; margin-top:40px; border-radius:10px; padding:25px;">
+<h2>Write a Review</h2>
+<input placeholder="Your Name" style="width:100%; padding:10px; margin:10px 0;">
+<textarea placeholder="Write your review..." style="width:100%; padding:10px; height:120px;"></textarea>
+<button class="btn">Submit Review</button>
+</section>
+
+<!-- 3D PRODUCT VIEWER -->
+<section class="section" style="background:#fff; margin-top:40px; padding:25px; border-radius:10px; text-align:center;">
+<h2>3D Product Viewer</h2>
+<iframe src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" style="width:300px; height:300px; border:none;" allow="autoplay; fullscreen; vr"></iframe>
+</section>
+
+<!-- COLOR / SIZE VARIANT SELECTOR -->
+<section class="section" style="background:#fff; margin-top:40px; padding:25px; border-radius:10px;">
+<h2>Select Color & Size</h2>
+<label>Color:</label>
+<select style="padding:10px; width:100%; margin-bottom:15px;">
+<option>Black</option><option>White</option><option>Blue</option>
+</select>
+<label>Size:</label>
+<select style="padding:10px; width:100%;">
+<option>Small</option><option>Medium</option><option>Large</option>
+</select>
+</section>
+
+<!-- PRICE FILTER SLIDER -->
+<section class="section" style="background:#fff; margin-top:40px; padding:25px; border-radius:10px;">
+<h2>Price Filter</h2>
+<input type="range" min="0" max="300" value="50" style="width:100%;" oninput="document.getElementById('priceVal').innerText=this.value">
+<p>Max Price: £<span id="priceVal">50</span></p>
+</section>
+
+<!-- ADD TO CART SLIDE DRAWER -->
+<div id="sideCart" style="position:fixed; top:0; right:-300px; width:300px; height:100%; background:#fff; box-shadow:-4px 0 10px rgba(0,0,0,0.2); padding:20px; z-index:9999; transition:0.4s;">
+<h3>Your Cart</h3>
+<div id="sideItems"></div>
+<button class="btn" onclick="closeCart()">Close</button>
+</div>
+<script>
+function openCart(){ document.getElementById('sideCart').style.right='0'; }
+function closeCart(){ document.getElementById('sideCart').style.right='-300px'; }
+function addToCart(item){ cartList.push(item); document.getElementById('sideItems').innerHTML = cartList.join('<br>'); openCart(); }
+</script>
+
+<!-- PAYMENT SUCCESS PAGE -->
+<section id="success" class="section" style="background:#e7ffe7; margin-top:40px; padding:25px; border-radius:10px; text-align:center;">
+<h2>Payment Successful!</h2>
+<p>Thank you for your purchase.</p>
+<img src="https://cdn-icons-png.flaticon.com/512/845/845646.png" style="width:120px;">
+</section>
+
+<!-- ORDER CONFIRMATION PAGE -->
+<section id="orderConfirm" class="section" style="background:#fff; margin-top:40px; padding:25px; border-radius:10px; text-align:center;">
+<h2>Order Confirmed</h2>
+<p>Your order has been placed successfully.</p>
+<p>Order ID: <strong>#BM12345</strong></p>
+</section>
+
+<!-- MY ACCOUNT DASHBOARD -->
+<section id="dashboard" class="section" style="background:#fff; margin-top:40px; padding:25px; border-radius:10px;">
+<h2>My Account</h2>
+<ul>
+<li>View Orders</li>
+<li>Track Shipping</li>
+<li>Saved Items</li>
+<li>Account Settings</li>
+</ul>
+</section>
+
+<!-- STICKY BOTTOM MOBILE NAV -->
+<div style="position:fixed; bottom:0; left:0; width:100%; background:#000; color:#fff; padding:10px 0; display:flex; justify-content:space-around; text-align:center; z-index:9999;">
+<div><i class="fa fa-home"></i><br>Home</div>
+<div><i class="fa fa-th"></i><br>Categories</div>
+<div onclick="openCart()"><i class="fa fa-shopping-cart"></i><br>Cart</div>
+<div><i class="fa fa-user"></i><br>Account</div>
+</div>
+
+<!-- PROFESSIONAL MULTI-SLIDE HOMEPAGE SLIDER -->
+<div style="width:100%; overflow:hidden; margin-top:40px;">
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475" style="width:100%; height:260px; object-fit:cover; display:block; margin-bottom:20px;">
+<img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b" style="width:100%; height:260px; object-fit:cover; display:block; margin-bottom:20px;">
+<img src="https://images.unsplash.com/photo-1503602642458-232111445657" style="width:100%; height:260px; object-fit:cover; display:block;">
+</div>
+
+</body>
+</body>
+</html>
